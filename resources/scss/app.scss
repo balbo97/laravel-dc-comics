@@ -15,6 +15,7 @@ header {
         text-transform: uppercase;
         padding: 30px 0;
         color: black;
+        text-decoration: none;
 
         &.active,
         &:hover {
@@ -23,4 +24,38 @@ header {
         }
     }
 
+}
+
+footer {
+    .top-footer {
+        background-image: url('../img/footer-bg.jpg');
+        height: 400px;
+
+        .col {
+            background-image: url('../img/dc-logo-bg.png');
+            background-position: right;
+            background-repeat: no-repeat;
+            height: 400px;
+        }
+    }
+
+    .bottom-footer {
+        background-color: rgb(35, 35, 35);
+        color: white;
+        padding: 40px 0;
+
+        .social-media {
+            p {
+                margin-bottom: 0;
+                margin-right: 20px;
+                color: rgb(1, 110, 219);
+            }
+
+            img {
+                margin-left: 10px;
+            }
+        }
+
+
+    }
 }
