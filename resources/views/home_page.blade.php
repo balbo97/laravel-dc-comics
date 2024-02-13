@@ -34,7 +34,15 @@
                         <div class="comics d-flex flex-wrap">
 
                             <div class="current-series p-2 bg-primary">Current Series</div>
-                            <AppComics v-for="comic, index in comics" :key="index" :comic="comic" />
+
+                            @foreach ($comics as $comic)
+                                <div class="regular-card">
+
+                                    <img src="{{ $comic['thumb'] }}">
+                                    <h6 class="card-text">{{ $comic['series'] }}</h6>
+
+                                </div>
+                            @endforeach
 
                         </div>
                         <div class="d-flex justify-content-center mt-5">

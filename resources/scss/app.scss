@@ -52,6 +52,24 @@ main {
 
     }
 
+    .regular-card {
+        margin: 10px;
+        width: calc(100% / 6 - 20px);
+
+
+
+        img {
+            aspect-ratio: 1 / 1;
+            max-width: 100%;
+
+        }
+
+        h6 {
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+    }
+
     .buy_comics {
         background-color: rgb(1, 110, 219);
 
