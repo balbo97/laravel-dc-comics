@@ -26,6 +26,48 @@ header {
 
 }
 
+main {
+
+
+
+    .jumbotrone {
+        height: 370px;
+        background-image: url('../img/jumbotron.jpg');
+        background-position: top;
+        background-size: cover;
+
+    }
+
+    .comics {
+
+        position: relative;
+
+        .current-series {
+            position: absolute;
+            top: -13%;
+            left: 0;
+        }
+
+
+
+    }
+
+    .buy_comics {
+        background-color: rgb(1, 110, 219);
+
+
+        .images {
+            height: 150px;
+            padding: 30px;
+
+
+        }
+
+    }
+
+
+}
+
 footer {
     .top-footer {
         background-image: url('../img/footer-bg.jpg');
