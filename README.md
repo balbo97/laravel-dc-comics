@@ -64,3 +64,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Ciao a tutti,
+proseguite con l'esercizio di ieri, stessa repo. Dovete replicare quanto visto a lezione, quindi fare in modo che la pagina con l'elenco dei fumetti e quella del dettaglio del fumetto estendano un layout. La pagina del dettaglio del fumetto la dovete creare, così come dovete creare la rotta nel file web.php
+Occhio al passaggio di parametri ed a come recuperare l'elemento dell'array. Poichè è sconsigliato usare il titolo, seguite i passi visti a lezione: aggiungete un id ad ogni fumetto, con un valore incrementale (mi raccomando: no valori ripetuti per l'id). Per recuperare il singolo fumetto usate uno dei due metodi visti (foreach classico oppure array_filter + array_values).
