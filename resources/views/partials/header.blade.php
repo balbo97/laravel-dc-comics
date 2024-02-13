@@ -4,7 +4,7 @@
             <div class="col">
                 <div class="navbar">
 
-                    <a href="#">
+                    <a href="{{ route('home_page') }}">
                         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo">
                     </a>
 
@@ -13,7 +13,7 @@
                             <a href="">Charaters</a>
                         </li>
                         <li>
-                            <a href="">Comics</a>
+                            <a href="{{ route('comics') }}">Comics</a>
                         </li>
                         <li>
                             <a href="">Movies</a>
