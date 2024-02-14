@@ -1,19 +1,19 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="bg-light">
-        <div class="container">
+    <div class="bg-light p-5">
+        <div class="container-details">
             <div class="row">
                 <div class="col-7">
                     <h3 class="text-uppercase">{{ $comic['title'] }}</h3>
-                    <div class="bg-success d-flex">
-                        <div class="d-flex justify-content-between p-2">
+                    <div class="bg-success d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
                             <p>U.S. price: {{ $comic['price'] }}</p>
                             <p>AVAILABLE</p>
                         </div>
                         <div>
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Check Availability
                                 </button>
@@ -27,6 +27,11 @@
 
                     </div>
                     <p>{{ $comic['description'] }}</p>
+                </div>
+                <div class="col-5">
+                    <div class="img-container">
+                        <img src="{{ $comic['thumb3'] }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>

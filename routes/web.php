@@ -28,7 +28,7 @@ Route::get('/comics/{param}', function ($id) {
 
     $comic = null;
     foreach($comics as $item){
-        if($comic['id'] == $id){
+        if($item['id'] == $id){
             $comic = $item;
         }
     }
