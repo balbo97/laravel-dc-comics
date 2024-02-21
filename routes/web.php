@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ComicController as ComicController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,20 +18,22 @@ Route::get('/', function () {
     return view('home_page', compact('comics'));
 })->name('home_page');
 
-Route::get('/comics', function () {
-    $comics = config('comics');
-    return view('comics', compact('comics'));
-})->name('comics');
+// Route::get('/comics', function () {
+//     $comics = config('comics');
+//     return view('comics', compact('comics'));
+// })->name('comics');
 
-Route::get('/comics/{param}', function ($id) {
-    $comics = config('comics');
+// Route::get('/comics/{param}', function ($id) {
+//     $comics = config('comics');
 
-    $comic = null;
-    foreach($comics as $item){
-        if($item['id'] == $id){
-            $comic = $item;
-        }
-    }
+//     $comic = null;
+//     foreach($comics as $item){
+//         if($item['id'] == $id){
+//             $comic = $item;
+//         }
+//     }
 
-    return view('detail_comic', compact('comic'));
-})->name('detail_comic');
+//     return view('detail_comic', compact('comic'));
+// })->name('detail_comic');
+
+Route::resource('comic', ComicController::class);

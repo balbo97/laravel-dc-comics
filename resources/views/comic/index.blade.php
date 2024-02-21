@@ -15,8 +15,7 @@
                         @foreach ($comics as $comic)
                             <div class="regular-card">
 
-                                <a class="link-underline link-underline-opacity-0"
-                                    href="{{ route('detail_comic', ['param' => $comic['id']]) }}">
+                                <a class="link-underline link-underline-opacity-0" href="">
 
                                     <img src="{{ $comic['thumb'] }}">
                                     <h6 class="card-text">{{ $comic['series'] }}</h6>
