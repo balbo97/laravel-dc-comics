@@ -1,4 +1,4 @@
-<div class="buy_comics">
+<div class="buy-comics">
     <div class="container-sm">
         <div class="row">
             <div class="col">

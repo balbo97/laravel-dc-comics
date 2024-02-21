@@ -28,7 +28,7 @@
                     </div>
                     <div class="d-flex justify-content-center mt-5">
 
-                        <a class="btn btn-primary" href="#" role="button">LOAD MORE</a>
+                        <a class="btn btn-primary" href="{{ route('comic.create') }}" role="button">ADD COMIC</a>
                     </div>
                 </div>
             </div>

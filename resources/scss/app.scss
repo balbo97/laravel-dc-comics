@@ -70,7 +70,7 @@ main {
         }
     }
 
-    .buy_comics {
+    .buy-comics {
         background-color: rgb(1, 110, 219);
 
 
@@ -86,6 +86,19 @@ main {
     .container-details {
         max-width: 70%;
         margin: 0 auto;
+    }
+
+    .img-container {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .form-container {
+        background-color: rgb(255, 204, 0);
+        border-radius: 30px;
+        padding: 20px;
+
     }
 
 

@@ -1,13 +1,14 @@
 @extends('layout.app')
 
 @section('content')
+    {{-- DETTAGLI DEL FUMETTO --}}
     <div class="bg-light p-5">
         <div class="container-details">
             <div class="row">
                 <div class="col-7">
                     <h3 class="text-uppercase">{{ $comic['title'] }}</h3>
                     <div class="bg-success d-flex justify-content-between">
-                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between">
                             <p>U.S. price: {{ $comic['price'] }}</p>
                             <p>AVAILABLE</p>
                         </div>
@@ -30,7 +31,7 @@
                 </div>
                 <div class="col-5">
                     <div class="img-container">
-                        <img src="{{ $comic['thumb3'] }}" alt="">
+                        <img src="{{ $comic['thumb'] }}" alt="">
                     </div>
                 </div>
             </div>
