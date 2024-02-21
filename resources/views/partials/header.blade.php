@@ -10,34 +10,34 @@
 
                     <ul class="d-flex list-unstyled">
                         <li>
-                            <a href="">Charaters</a>
+                            <a href="{{ route('home_page') }}">Charaters</a>
                         </li>
                         <li>
                             <a href="/comic/">Comics</a>
                         </li>
                         <li>
-                            <a href="">Movies</a>
+                            <a href="{{ route('home_page') }}">Movies</a>
                         </li>
                         <li>
-                            <a href="">Tv</a>
+                            <a href="{{ route('home_page') }}">Tv</a>
                         </li>
                         <li>
-                            <a href="">Games</a>
+                            <a href="{{ route('home_page') }}">Games</a>
                         </li>
                         <li>
-                            <a href="">Collectibles</a>
+                            <a href="{{ route('home_page') }}">Collectibles</a>
                         </li>
                         <li>
-                            <a href="">Videos</a>
+                            <a href="{{ route('home_page') }}">Videos</a>
                         </li>
                         <li>
-                            <a href="">Fans</a>
+                            <a href="{{ route('home_page') }}">Fans</a>
                         </li>
                         <li>
-                            <a href="">News</a>
+                            <a href="{{ route('home_page') }}">News</a>
                         </li>
                         <li>
-                            <a href="">Shop</a>
+                            <a href="{{ route('home_page') }}">Shop</a>
                         </li>
                     </ul>
 
