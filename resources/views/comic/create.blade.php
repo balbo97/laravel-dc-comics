@@ -22,8 +22,8 @@
                             <input type="text" id="price" name="price" placeholder="Comic Price" required>
                         </div>
                         <div class="form-group my-3">
-                            <label class="d-block" for="src">Link Image</label>
-                            <input type="text" id="src" name="src" placeholder="Comic Url">
+                            <label class="d-block" for="thumb">Link Image</label>
+                            <input type="text" id="thumb" name="thumb" placeholder="Comic Url">
                         </div>
                         <div class="form-group my-3">
 

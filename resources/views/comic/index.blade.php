@@ -19,7 +19,7 @@
                                     href="{{ route('comic.show', ['comic' => $comic->id]) }}">
 
                                     <img src="{{ $comic['thumb'] }}">
-                                    <h6 class="card-text">{{ $comic['series'] }}</h6>
+                                    <h6 class="card-text">{{ $comic['title'] }}</h6>
                                 </a>
 
                             </div>
