@@ -34,6 +34,9 @@
                         <img src="{{ $comic['thumb'] }}" alt="">
                     </div>
                 </div>
+                <div class="col-12">
+                    <a class="btn btn-warning" href="{{ route('comic.edit', ['comic' => $comic->id]) }}">Update</a>
+                </div>
             </div>
         </div>
     </div>

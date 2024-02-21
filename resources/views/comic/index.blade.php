@@ -18,7 +18,12 @@
                                 <a class="link-underline link-underline-opacity-0"
                                     href="{{ route('comic.show', ['comic' => $comic->id]) }}">
 
-                                    <img src="{{ $comic['thumb'] }}">
+                                    @if ($comic->thumb == null)
+                                        <img src="{{ Vite::asset('resources/img/3993.jpg') }}" alt="">
+                                    @else
+                                        <img src="{{ $comic['thumb'] }}">
+                                    @endif
+
                                     <h6 class="card-text">{{ $comic['title'] }}</h6>
                                 </a>
 
